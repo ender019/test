@@ -1,0 +1,81 @@
+.main-panel{
+    background-color: aqua;
+}
+
+header{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.imp{
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.menu{
+    
+}
+
+.tab1{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+td{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    width: 50%;
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+.content{
+    margin-top: 20px;
+}
+
+.cont_img{
+    width: 50%;
+    display: inline-block;
+}
+
+.text1{
+    width: 49%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.contener{
+
+}
+
+.outdata{
+    width:100%;
+}
+
+label{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    
+}
+
+button{
+    display: block;
+    vertical-align: top;
+}
+
+td:hover{
+    border-color: red;
+    background-color: white;
+    color: red;
+}
