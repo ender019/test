@@ -1,3 +1,7 @@
+@media screen and (max-width: 300px) {
+    
+}
+
 .main-panel{
     background-color: aqua;
 }
@@ -30,7 +34,7 @@ a{
     color: inherit;
 }
 
-td{
+.menu-but{
     text-align: center;
     font-size: 25px;
     font-style: italic;
@@ -60,21 +64,25 @@ td{
 
 .outdata{
     width:100%;
+    display: block;
+    font-weight: bold;
+    
 }
 
 label{
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
     width: 50%;
     
 }
 
-button{
+.sub-com-but{
     display: block;
-    vertical-align: top;
+    font-weight: bold;
+    border: 3px solid black;
 }
 
-td:hover{
+.pushing:hover{
     border-color: red;
     background-color: white;
     color: red;
